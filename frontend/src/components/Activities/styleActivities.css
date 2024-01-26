@@ -1,0 +1,324 @@
+   /* =========================
+       Blog & News Area CSS 
+      ========================= */
+      .our-blog {
+        background-color: #f5f8f9;
+    }
+    .blog-item {
+        margin-top: 30px;
+        transition: .4s;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        overflow: hidden
+    }
+    .blog-item:hover {
+        -webkit-box-shadow: 0px 0px 8px 0px rgba(241, 9, 9, 0.678);
+        -moz-box-shadow:    0px 0px 8px 0px rgba(241, 9, 9, 0.678);
+        box-shadow:         0px 0px 8px 0px rgba(241, 9, 9, 0.678);
+    }
+    .blog-item .blog-img {
+        display: block;
+        overflow: hidden
+    }
+    .blog-item .blog-img img{
+   
+        width : 360px;
+        height : 390px;
+
+        transform: scale(1.1);
+        transition: all 1s ease 0s;
+        -webkit-transition: all 1s ease 0s;
+    }
+    .blog-item .blog-img:hover img{ 
+        transform: scale(1); 
+        -webkit-transform: scale(1); 
+        -ms-transform: scale(1); 
+    }
+    .blog-info {
+      position: relative;
+      padding-right: 135px;
+    }
+    .date-box {
+        position: absolute;
+        right: 20px;
+        top: -53px;
+        color: #fff;
+        padding: 30px 24px 30px;
+        font-size: 40px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .month {
+      display: block;
+      margin-top: 11px;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .title-meta h2 {
+        line-height: 20px;
+    }
+    .title-meta h2 a {
+        font-size: 20px;
+        color: #626262;
+        margin-top: 10px;
+        transition: .4s;
+        -webkit-transition: .4s;
+    }
+    .post-meta {
+        font-size: 12px;
+    }
+    .post-meta ul li {
+      display: inline-block;
+        padding-right: 5px;
+    }
+    .post-meta ul li a {
+      color: #848484;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .title-meta {
+      vertical-align: bottom;
+      text-align: right;
+    }
+    .post-content {
+        padding: 20px;
+        text-align: right;
+    }
+    .main-blog {
+        padding: 70px 0 90px;
+    }
+    .pagination-area .pagination {
+        margin: 30px 0 0;
+        display: inline-block;
+    }
+    .pagination-area .pagination > li{
+        display: inline;
+    }
+    .pagination li a, .pagination li span {
+        min-width: 30px;
+        font-family: 'Poppins';
+        font-size: 13px;
+        line-height: 30px;
+        font-weight: 500;
+        color: #666;
+        text-align: center;
+        background: #eaeaea;
+        padding: 0 5px;
+        margin: 0 4px;
+        border-color: #eaeaea;
+    }
+    .pagination>li>a, .pagination>li>span {
+        position: relative;
+        float: left;
+        text-decoration: none;
+        border: 1px solid #ddd;
+    }
+    .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+        z-index: 3;
+        color: #fff;
+        cursor: default;
+    }
+    .pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+        z-index: 2;
+        color: #23527c;
+        background-color: #eee;
+        border-color: #ddd;
+    }
+    .side-widget {
+        margin-top: 30px;
+        text-align: right;
+    }
+    .side-widget h3 {
+        margin: 0 0 20px;
+        position: relative;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+        padding-bottom: 15px;
+    }
+    .side-widget h3::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: -2px;
+        height: 3px;
+        width: 40px;
+    }
+    .search-form {
+        position: relative;
+    }
+    .search-form .form-control {
+        border-radius: 0;
+        height: 42px;
+    }
+    .search-form .btn-default {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 0;
+        height: 42px;
+        color: #fff;
+        padding: 5px 15px;
+        font-size: 16px;
+    }
+    .side-widget .list-group li {
+        border-radius: 0;
+        padding: 0;
+    }
+    .side-widget .list-group li a {
+        border-radius: 0;
+        color: #333;
+        padding: 8px 15px;
+        display: block;
+    }
+    .single-post {
+        position: relative;
+        padding: 0 90px 0 0;
+        margin-top: 15px;
+        min-height: 75px;
+    }
+    .single-post img {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 75px;
+        height: 75px;
+        border-radius: 3px;
+    }
+    .single-post h4 {
+        margin: 0 0 5px;
+        font-size: 16px;
+    }
+    .single-post h4 a {
+        color: #626262;
+    }
+    
+    .list-tags li  {
+        display: inline-block;
+        margin-bottom: 2px;
+    }
+    .list-tags li a {
+        background: #f5f5f5;
+        color: #333;
+        display: inline-block;
+        padding: 3px 10px;
+    }
+    .list-tags li a:hover {
+        color: #fff;
+    }
+    .post-img img {
+        width: 100%;
+    }
+    .blog-details {
+        margin-top: 30px;
+    }
+    .blog-details .date-box {
+        padding: 23px 24px 20px;
+    }
+    .blog-details .title-meta h2 {
+        font-size: 20px;
+        color: #626262;
+        transition: .4s;
+        -webkit-transition: .4s;
+    }
+    .blog-details .post-content p {
+        margin-bottom: 20px;
+        line-height: 26px;
+    }
+    .sharing-link {
+        background: #fff;
+        padding: 5px 15px;
+        border: 1px solid #ddd;
+    }
+    .sharing-link ul li {
+        display: inline-block;
+        margin: 0 5px 0 0;
+    }
+    .sharing-link ul li i {
+        background: #f1f1f1;
+        color: #333;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 50%;
+        padding: 9px 9px;
+        font-size: 13px;
+    }
+    .sharing-link ul li i:hover {
+        color: #fff;
+    }
+    .comments-area {
+        padding: 20px;
+        margin-top: 10px;
+    }
+    .comments-title {
+        margin: 0;
+        text-align: right;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 15px;
+        position: relative;
+    }
+    .comments-title::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: -2px;
+        height: 3px;
+        width: 40px;
+    }
+    .single-comment {
+        position: relative;
+        padding: 0 100px 0 0;
+        margin-top: 30px;
+        text-align: right;
+    }
+    .single-comment img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 3px;
+    }
+    .single-comment h4 {
+        margin: 0 0 5px;
+        color: #000;
+    }
+    .single-comment .date {
+        margin-bottom: 5px;
+    }
+    .single-comment .reply {
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: #f5f5f5;
+        color: #333;
+        padding: 4px 15px;
+        display: block;
+        border-radius: 3px;
+    }
+    .single-comment .reply:hover {
+        color: #fff;
+    }
+    .comments-form {
+        padding: 20px;
+    }
+    .comments-form h3 {
+        margin-bottom: 30px;
+    }
+    .comments-form .form-control {
+        height: 42px;
+    }
+    .comments-form textarea.form-control {
+        height: auto !important;
+    }
+    .comments-form .button {
+        max-width: 210px;
+        margin: auto;
+    }
+    
+    /* =========================
+        End Blog & News Area CSS 
+       ========================= */
+       .main {
+        background-color: rgb(240, 235, 235);
+        padding: 4%
+      }
