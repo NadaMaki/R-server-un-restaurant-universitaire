@@ -100,6 +100,7 @@ const AddUser = ({ location, history }) => {
                                 required >
                      <option value="">Liste de choix...</option>
                      <option value="Etudiant">Etudiant</option>
+                     <option value="Admin">Admin</option>
                      <option value="Enseignant vacataire">Enseignant vacataire</option>
                       <option value="Enseignant permanent">Enseignant permanent</option>
                    </select>

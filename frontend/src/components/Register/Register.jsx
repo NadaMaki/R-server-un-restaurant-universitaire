@@ -59,7 +59,7 @@ const Register = ({ location, history }) => {
     }
 
     return (
-
+        <div className="main"  fluid >
         <FormContainer>
             <Meta
                 title=" | Register"
@@ -96,14 +96,11 @@ const Register = ({ location, history }) => {
                                 required >
                      <option value="">Liste de choix...</option>
                      <option value="Etudiant">Etudiant</option>
+                     <option value="Admin">Admin</option>
                      <option value="Enseignant vacataire">Enseignant vacataire</option>
                       <option value="Enseignant permanent">Enseignant permanent</option>
                    </select>
                  </div>
-
-
-
-
 
                         <Form.Group controlId='email'>
                             <Form.Label> Email  <span style={{ color: 'red' }}>*</span> </Form.Label>
@@ -149,6 +146,8 @@ const Register = ({ location, history }) => {
             </Form>
             
         </FormContainer>
+         </div>
+
     )
 }
 
